@@ -1,21 +1,15 @@
 $min-width-mob: '0px';
 $min-width-mob: '768px';
-
-$min-width-tab: 0px;
-$min-width-tab: 768px;
-
-$min-width-des: 0px;
-$min-width-des: 768px;
+$min-width-tab: 769px;
+$min-width-tab: 1022px;
 
 div {
     &.main-header {
         width: 100%;
-
         div {
             &.typo {
                 background-color: black;
                 height: 40px;
-
                 div {
                     justify-content: space-between;
                     align-items: center;
@@ -28,9 +22,7 @@ div {
                     width: 2px;
                     height: 16px;
                     background-color: white;
-
                 }
-
                 p {
                     color: white;
                     font-size: 13px;
