@@ -1,0 +1,102 @@
+$min-width-mob: '0px';
+$min-width-mob: '768px';
+
+$min-width-tab: 0px;
+$min-width-tab: 768px;
+
+$min-width-des: 0px;
+$min-width-des: 768px;
+
+div {
+    &.main-header {
+        width: 100%;
+
+        div {
+            &.typo {
+                background-color: black;
+                height: 40px;
+
+                div {
+                    justify-content: space-between;
+                    align-items: center;
+                    display: flex;
+                    width: 45%;
+                    margin: auto;
+                }
+
+                span {
+                    width: 2px;
+                    height: 16px;
+                    background-color: white;
+
+                }
+
+                p {
+                    color: white;
+                    font-size: 13px;
+                    margin-top: 10px;
+
+                    a {
+                        color: white;
+                    }
+                }
+            }
+        }
+
+        div {
+            &.header {
+                height: 90px;
+                background-color: rgb(174, 137, 208);
+            }
+        }
+    }
+}
+
+@media (min-width:0px) and (max-width:768px) {
+    div {
+        &.main-header {
+            div {
+                &.typo {
+                    background-color: black;
+                    height: 60px;
+                    padding-top: 8px;
+
+                    div {
+                        display: block;
+                        width: 90%;
+                        margin: auto;
+                    }
+
+                    span {
+                        display: none;
+                    }
+
+                    p {
+                        color: white;
+                        font-size: 13px;
+                        margin-bottom: 0px;
+                        margin-top: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:769px) and (max-width:1180px) {
+    div {
+        &.main-header {
+            div {
+                &.typo {
+                    div {
+                        width: 70%;
+                        margin: auto;
+                    }
+                }
+            }
+        }
+    }
+}
+//-----
+
+
