@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+div.header {
+  background-color: rgb(250, 250, 250);
+  height: 100px;
+  display: grid;
+  grid-template-columns: 2.5fr 0.5fr;
+  gap: 5%;
+}
+div.header nav {
+  padding: 0 20px;
+}
+div.header nav.navbar {
+  padding: 0 40px;
+}
+div.header nav.navbar div.container-fluid div.collapse ul {
+  padding: 0 60px;
+}
+div.header nav.navbar div.container-fluid div.collapse ul li a {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding-right: 10px;
+}
+div.header nav.navbar div.container-fluid a.navbar-brand {
+  text-transform: uppercase;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+div.header div.icons {
+  padding-top: 40px;
+}
+div.header div.icons a i {
+  padding-right: 10px;
+  font-size: 20px;
+  color: black;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  div.header {
+    height: 70px;
+  }
+  div.header nav.navbar div button {
+    position: absolute;
+    border: none;
+    outline: none;
+    top: 15px;
+    left: 30px;
+  }
+  div.header nav.navbar div a {
+    margin: auto;
+  }
+  div.header div.icons {
+    padding-top: 20px;
+  }
+  div.header div.icons a i {
+    padding-right: 30px;
+  }
+  div.header div.icons a i.fa-heart, div.header div.icons a i.fa-cart-plus {
+    display: none;
+  }
+}
+@media (min-width: 0px) and (max-width: 767px) {
+  div.header {
+    grid-template-columns: 2fr 2fr;
+    height: 60px;
+  }
+  div.header nav.navbar div button {
+    position: absolute;
+    border: none;
+    outline: none;
+    top: 10px;
+    left: 10px;
+  }
+  div.header nav.navbar div a {
+    margin-left: 20px;
+  }
+  div.header div.icons {
+    padding-top: 15px;
+  }
+  div.header div.icons a i {
+    font-size: 15px;
+  }
+  div.header div.icons a i.fa-heart, div.header div.icons a i.fa-cart-plus {
+    display: none;
+  }
+}/*# sourceMappingURL=style.css.map */
