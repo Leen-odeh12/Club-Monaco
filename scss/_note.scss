@@ -21,6 +21,7 @@ div {
     &.section {
         padding-top: 20px;
         padding-left: 50px;
+        padding-bottom: 0;
 
         p {
             span {
@@ -57,9 +58,10 @@ div {
 
         div {
             &.data {
-              padding-left: 90px;
+                padding-left: 90px;
                 display: flex;
                 gap: 20px;
+
                 a {
                     color: black;
                 }
@@ -72,4 +74,57 @@ div {
             }
         }
     }
+}
+
+@media(max-width:768px) {
+
+    div {
+
+        &.filter {
+            visibility: hidden;
+        }
+
+        &.sec {
+            display: block;
+            padding-right: 40px;
+        }
+
+        &.data {
+            margin-left: 1%;
+            margin-right: 3%;
+            ;
+
+            i {
+                visibility: hidden;
+            }
+        }
+
+
+    }
+
+}
+
+@media(min-width:768px) and (max-width:1023px) {
+    div {
+        text-align: center;
+
+        &.filter {
+            visibility: hidden;
+        }
+
+        h5 {
+            position: absolute;
+            left: 50px;
+            top: 165px;
+
+        }
+
+        &.data {
+            position: absolute;
+            left: 57%;
+
+        }
+
+    }
+
 }

@@ -80,6 +80,7 @@ div.note p a {
 div.section {
   padding-top: 20px;
   padding-left: 50px;
+  padding-bottom: 0;
 }
 div.section p span {
   color: #cccccc;
@@ -114,4 +115,38 @@ div.sec div.data a {
 }
 div.sec div h5 {
   text-align: center;
+}
+
+@media (max-width: 768px) {
+  div.filter {
+    visibility: hidden;
+  }
+  div.sec {
+    display: block;
+    padding-right: 40px;
+  }
+  div.data {
+    margin-left: 1%;
+    margin-right: 3%;
+  }
+  div.data i {
+    visibility: hidden;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  div {
+    text-align: center;
+  }
+  div.filter {
+    visibility: hidden;
+  }
+  div h5 {
+    position: absolute;
+    left: 50px;
+    top: 165px;
+  }
+  div.data {
+    position: absolute;
+    left: 57%;
+  }
 }/*# sourceMappingURL=style.css.map */
