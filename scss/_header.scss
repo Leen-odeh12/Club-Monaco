@@ -1,0 +1,103 @@
+header {
+    .two {
+        a {
+            display: none;
+        }
+    }
+
+    nav {
+        &.navbar {
+            padding: 20px;
+            background-color: rgb(211, 211, 211);
+            box-shadow: 0px 1px 5px #cccccc;
+
+            div {
+                &.container-fluid {
+                    a {
+                        &.navbar-brand {
+                            text-transform: uppercase;
+                            font-weight: bold;
+                            letter-spacing: 2px;
+                        }
+                    }
+
+                    div {
+                        &.navbar-collapse {
+                            padding-left: 50px;
+                        }
+
+                        ul {
+                            li {
+                                a {
+                                    text-transform: uppercase;
+                                    padding-left: 10px;
+                                }
+                            }
+                        }
+
+                        div {
+                            &.d-flex {
+                                display: flex;
+                                justify-content: space-between;
+
+                                i {
+                                    font-size: 20px;
+                                    color: #3838388e;
+                                    padding-left: 20px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media(min-width:0px) and (max-width:1023px) {
+    button {
+        background-color: black;
+        border: none;
+        outline: none;
+        position: absolute;
+    }
+
+    a {
+        &.navbar-brand {
+            padding-left: 25%;
+        }
+    }
+
+    header {
+        .two {
+            a {
+                display: block;
+                color: #717171;
+
+                i {
+                    font-size: 20px;
+                    position: absolute;
+                    top: 23px;
+                    right: 7%;
+
+                    &.fa-magnifying-glass {
+                        right: 15%;
+                    }
+
+                }
+
+            }
+        }
+
+        nav {
+            &.navbar {
+                padding: 10px;
+            }
+        }
+    }
+
+
+
+
+}
