@@ -53,7 +53,7 @@ header nav.navbar div.container-fluid div div.d-flex i {
     font-size: 20px;
     position: absolute;
     top: 23px;
-    right: 5%;
+    right: 7%;
   }
   header .two a i.fa-magnifying-glass {
     right: 15%;
@@ -71,6 +71,7 @@ div.note p {
   font-size: 12px;
   text-align: center;
   margin-bottom: 0;
+  margin: auto;
 }
 div.note p a {
   font-weight: 600;
@@ -78,12 +79,14 @@ div.note p a {
 }
 
 div.section {
-  padding-top: 20px;
-  padding-left: 50px;
-  padding-bottom: 0;
+  padding-top: 10px;
+  text-align: center;
+  padding-bottom: 0 px;
 }
 div.section p span {
   color: #cccccc;
+  text-align: center;
+  margin-bottom: 0 !important;
 }
 
 div.sec {
@@ -105,10 +108,10 @@ div.sec div.filter i {
   font-size: 25px;
 }
 div.sec div.filter p {
-  margin-bottom: 0%;
+  margin-bottom: 0% !important;
 }
 div.sec div.data {
-  padding-left: 80px;
+  padding-left: 90px;
   display: flex;
   gap: 20px;
 }
@@ -120,6 +123,9 @@ div.sec div h5 {
 }
 
 @media (max-width: 768px) {
+  div.section p {
+    margin-bottom: 0px;
+  }
   div.filter {
     visibility: hidden;
   }
@@ -131,7 +137,7 @@ div.sec div h5 {
     margin-left: 1%;
     margin-right: 3%;
     width: 600px;
-    padding-left: 0px;
+    padding: 0 0 0 0px !important;
   }
   div.data i {
     visibility: hidden;
@@ -151,7 +157,7 @@ div.sec div h5 {
   }
   div.data {
     position: absolute;
-    left: 55%;
+    left: 60%;
     top: 165px;
     width: 500px;
   }
