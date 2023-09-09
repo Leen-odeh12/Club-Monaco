@@ -105,7 +105,7 @@ div.sec div.filter p {
   padding-top: 15px;
 }
 div.sec div.data {
-  text-align: center;
+  padding-left: 90px;
   display: flex;
   gap: 20px;
 }
