@@ -16,33 +16,7 @@ div {
                                 div {
                                     &.color {
                                         gap: 10px;
-                                        div {
-                                            &.one {
-                                                width: 15px;
-                                                height: 15px;
-                                                background-color: darkred;
-                                            }
-
-                                            &.three {
-                                                width: 15px;
-                                                height: 15px;
-                                                background-color: rgb(85, 9, 60);
-                                            }
-
-                                            &.two {
-                                                width: 15px;
-                                                height: 15px;
-                                                background-color: rgb(15, 38, 104);
-                                            }
-
-                                            &.four {
-                                                width: 15px;
-                                                height: 15px;
-                                                font-size: 20px;
-                                                background-color: aqua;
-
-                                            }
-
+                                      
                                         }
                                     }
                                 }
@@ -51,7 +25,6 @@ div {
                         }
                     }
                 }
-            }
         }
     }
 }

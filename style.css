@@ -114,6 +114,7 @@ div.sec div.data {
   padding-left: 90px;
   display: flex;
   gap: 20px;
+  width: 450px;
 }
 div.sec div.data a {
   color: black;
@@ -134,7 +135,7 @@ div.sec div h5 {
     padding-right: 40px;
   }
   div.data {
-    margin-left: 1%;
+    margin-left: 10%;
     margin-right: 3%;
     width: 600px;
     padding: 0 0 0 0px !important;
@@ -143,6 +144,11 @@ div.sec div h5 {
     visibility: hidden;
   }
 }
+.three {
+  font-size: 20px;
+  top: 10px;
+}
+
 @media (min-width: 768px) and (max-width: 1023px) {
   div {
     text-align: center;
@@ -175,25 +181,4 @@ div.container {
 }
 div.container div.row div.col-lg-4 div.info div.color {
   gap: 10px;
-}
-div.container div.row div.col-lg-4 div.info div.color div.one {
-  width: 15px;
-  height: 15px;
-  background-color: darkred;
-}
-div.container div.row div.col-lg-4 div.info div.color div.three {
-  width: 15px;
-  height: 15px;
-  background-color: rgb(85, 9, 60);
-}
-div.container div.row div.col-lg-4 div.info div.color div.two {
-  width: 15px;
-  height: 15px;
-  background-color: rgb(15, 38, 104);
-}
-div.container div.row div.col-lg-4 div.info div.color div.four {
-  width: 15px;
-  height: 15px;
-  font-size: 20px;
-  background-color: aqua;
 }/*# sourceMappingURL=style.css.map */

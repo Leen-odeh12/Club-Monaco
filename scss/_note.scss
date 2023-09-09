@@ -66,6 +66,7 @@ div {
                 padding-left: 90px;
                 display: flex;
                 gap: 20px;
+                width:450px;
 
                 a {
                     color: black;
@@ -100,7 +101,7 @@ div {
         }
 
         &.data {
-            margin-left: 1%;
+            margin-left: 10%;
             margin-right: 3%;
             width: 600px;
             padding: 0 0 0 0px !important;
@@ -114,8 +115,10 @@ div {
     }
 
 }
-
-
+.three{
+    font-size: 20px;
+    top:10px;
+}
 
 @media(min-width:768px) and (max-width:1023px) {
     div {
