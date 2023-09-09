@@ -38,6 +38,7 @@ div {
         grid-template-columns: repeat(3, 1fr);
         align-items: center;
         margin: auto;
+        vertical-align: middle;
 
         div {
             &.filter {
@@ -45,20 +46,22 @@ div {
                 display: flex;
                 align-items: center;
                 gap: 10px;
+                vertical-align: middle;
 
                 i {
                     font-size: 25px;
                 }
 
                 p {
-                    padding-top: 15px;
+
+                    margin-bottom: 0%;
                 }
             }
         }
 
         div {
             &.data {
-                padding-left: 90px;
+                padding-left: 80px;
                 display: flex;
                 gap: 20px;
 
@@ -92,7 +95,8 @@ div {
         &.data {
             margin-left: 1%;
             margin-right: 3%;
-            ;
+            width: 600px;
+            padding-left: 0px;
 
             i {
                 visibility: hidden;
@@ -121,8 +125,9 @@ div {
 
         &.data {
             position: absolute;
-            left: 57%;
-
+            left: 55%;
+            top: 165px;
+            width: 500px;
         }
 
     }

@@ -92,21 +92,23 @@ div.sec {
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
   margin: auto;
+  vertical-align: middle;
 }
 div.sec div.filter {
   text-align: center;
   display: flex;
   align-items: center;
   gap: 10px;
+  vertical-align: middle;
 }
 div.sec div.filter i {
   font-size: 25px;
 }
 div.sec div.filter p {
-  padding-top: 15px;
+  margin-bottom: 0%;
 }
 div.sec div.data {
-  padding-left: 90px;
+  padding-left: 80px;
   display: flex;
   gap: 20px;
 }
@@ -128,6 +130,8 @@ div.sec div h5 {
   div.data {
     margin-left: 1%;
     margin-right: 3%;
+    width: 600px;
+    padding-left: 0px;
   }
   div.data i {
     visibility: hidden;
@@ -147,6 +151,8 @@ div.sec div h5 {
   }
   div.data {
     position: absolute;
-    left: 57%;
+    left: 55%;
+    top: 165px;
+    width: 500px;
   }
 }/*# sourceMappingURL=style.css.map */
