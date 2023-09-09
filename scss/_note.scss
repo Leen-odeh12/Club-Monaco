@@ -119,6 +119,9 @@ div {
 
 @media(min-width:768px) and (max-width:1023px) {
     div {
+        &.sec{
+           margin-bottom: 30px; 
+        }
         text-align: center;
 
         &.filter {

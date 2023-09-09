@@ -147,6 +147,9 @@ div.sec div h5 {
   div {
     text-align: center;
   }
+  div.sec {
+    margin-bottom: 30px;
+  }
   div.filter {
     visibility: hidden;
   }
@@ -162,19 +165,16 @@ div.sec div h5 {
     width: 500px;
   }
 }
+section {
+  margin-top: 20px;
+}
+
 div.container {
   margin-top: 20px;
   margin-bottom: 40px;
 }
-div.container div.row div.col-lg-4 div.info {
-  padding-top: 25px;
-  text-align: center;
-  margin-bottom: 30px;
-}
 div.container div.row div.col-lg-4 div.info div.color {
-  display: flex;
   gap: 10px;
-  padding-left: 130px;
 }
 div.container div.row div.col-lg-4 div.info div.color div.one {
   width: 15px;
