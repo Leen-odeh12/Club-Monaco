@@ -56,7 +56,7 @@ header div.notice p span {
 }
 
 div.filter-section p{
-padding-left: 4%;
+padding-left: 6%;
 margin-top: 10px;
 }
 div.filter-section p span{
@@ -67,7 +67,6 @@ div.flex{
   align-items: center;
   gap:10px;
   justify-content: space-between;
- 
 }
 button.btn{
   background-color: transparent;
@@ -76,14 +75,10 @@ button.btn{
 div.flex a{
 color: black;
 }
-div.row{
-align-items: center;
+div.container{
+padding-left: 0px;
 }
-
-
-
 /*# sourceMappingURL=style.css.map */
-
 
 @media(max-width:767px) {
 
@@ -142,7 +137,10 @@ div.dis-flex{
   div.d-flex i {
     font-size: 25px;
   }
-
+  div.filter-section p{
+    padding-left: 3%;
+    margin-top: 10px;
+    }
   .navbar-light .navbar-brand {
     position: absolute;
     right: 30%;
