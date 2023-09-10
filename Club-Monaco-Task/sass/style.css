@@ -9,74 +9,133 @@ header nav.navbar {
   background-color: rgb(242, 242, 242);
   box-shadow: 0 1px 5px #d8d8d8;
 }
-div.info{
-  padding-top: 10px;
-  text-align: center;
-}
-div.info p{
- margin-bottom: 3px;
-}
-div.color-dresses div{
-width:20px;
-height: 20px;
-
-}
-.social a{
-text-decoration: none;
-color:black;
-font-size: 20px;
-padding-right: 30px;
-margin-bottom: 40px;
-}
-.social{
-  margin-left:30%;
-}
-
-div.data{
-  width:1240px;
-  padding-left: 8%;
-  padding-top: 20px;
-  padding-bottom: 40px;
-}
-button.btn-show{
-border: 1px solid black;
-width:350px;
-height: 40px;
-font-weight: 500;
-letter-spacing: 2px;
-background-color: #ffffff;
-}
-div.btn-show-sec{
-margin-left: 36%;
-margin-top: 40px;
-margin-bottom: 70px;
-}
-div.color-dresses{
-  display: flex;
-justify-content: center;
-align-items: center;
-gap:10px;
-margin-top: 20px;
-margin-bottom: 30px;
-}
-div.color-dresses div.one{
-background-color: cornflowerblue;
-  }
-  div.color-dresses div.two{
-    background-color: rgb(3, 87, 3);
-    }
-    div.color-dresses div.three{
-      background-color: brown;
-      }
 header nav.navbar div.container-fluid a.navbar-brand {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 3px;
   padding-right: 9%;
 }
-section.two{
+header nav.navbar div div ul li a {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: black;
+}
+header nav div.d-flex {
+  display: flex;
+  width: 130px;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav div.d-flex a i {
+  color: #525252;
+}
+header div.notice {
+  text-align: center;
+  box-shadow: 0 0 2px #b3b3b3;
+  padding: 5px 0;
+}
+header div.notice p {
+  margin-bottom: 0%;
+}
+header div.notice p a {
+  color: black;
+}
+header div.notice p span {
+  font-weight: 500;
+}
+
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+header nav.navbar {
+  padding: 20px 30px;
+  background-color: rgb(242, 242, 242);
+  box-shadow: 0 1px 5px #d8d8d8;
+}
+
+div.info {
+  padding-top: 10px;
+  text-align: center;
+}
+
+div.info p {
+  margin-bottom: 3px;
+}
+
+div.color-dresses div {
+  width: 20px;
+  height: 20px;
+}
+
+.social a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  padding-right: 30px;
+  margin-bottom: 40px;
+}
+
+.social {
+  margin-left: 30%;
+}
+
+div.data {
+  width: 1240px;
+  padding-left: 8%;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+button.btn-show {
+  border: 1px solid black;
+  width: 350px;
+  height: 40px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  background-color: #ffffff;
+}
+
+div.btn-show-sec {
+  margin-left: 36%;
+  margin-top: 40px;
+  margin-bottom: 70px;
+}
+
+div.color-dresses {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+div.color-dresses div.one {
+  background-color: cornflowerblue;
+}
+
+div.color-dresses div.two {
+  background-color: rgb(3, 87, 3);
+}
+
+div.color-dresses div.three {
+  background-color: brown;
+}
+
+header nav.navbar div.container-fluid a.navbar-brand {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding-right: 9%;
+}
+
+section.two {
   margin-top: 10px;
 }
+
 header nav.navbar div div ul li a {
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -110,14 +169,17 @@ header div.notice p {
 header div.notice p a {
   color: black;
 }
-a{
+
+a {
   text-decoration: none;
-  color:black;
+  color: black;
   font-weight: 400;
 }
-a:hover{
+
+a:hover {
   color: darkblue;
 }
+
 header div.notice p span {
   font-weight: 500;
 }
@@ -137,11 +199,13 @@ div.flex {
   gap: 10px;
   justify-content: space-between;
 }
-button.increment{
-  width:25px;
+
+button.increment {
+  width: 25px;
   height: 25px;
   border: none;
 }
+
 button.btn {
   background-color: transparent;
   border: none;
@@ -155,91 +219,86 @@ div.container {
   padding-left: 0px;
 }
 
-/*# sourceMappingURL=style.css.map */
-button.increment{
-  width:25px;
+
+button.increment {
+  width: 25px;
   height: 25px;
   border: none;
 }
+
 /* ---------------------------------------------------------------------------------- */
-@media(max-width:767px) {
-  .imp{
-    width:350px;
+@media (max-width: 767px) {
+  .imp {
+    width: 350px;
     height: 420px;
   }
-  section.two{
+  section.two {
     margin-top: 20px;
   }
-  button.increment{
-    width:25px;
+  button.increment {
+    width: 25px;
     height: 25px;
     border: none;
-   margin-left: 80px;
+    margin-left: 80px;
   }
-  button.submit{
+  button.submit {
     margin-bottom: 0;
     margin-left: 30px;
   }
-  input{
+  input {
     margin-left: 60px;
   }
-
-  .social a{
+  .social a {
     text-decoration: none;
-    color:black;
+    color: black;
     font-size: 20px;
     padding-right: 43px;
     margin-bottom: 40px;
-    }
-    .fa-pinterest-p{
-      display: none;
-    }
-    .header{
-      margin-bottom: 40px;
-    }
-  div.data{
-    width:350px;
+  }
+  .fa-pinterest-p {
+    display: none;
+  }
+  .header {
+    margin-bottom: 40px;
+  }
+  div.data {
+    width: 350px;
     padding-left: 8%;
     padding-top: 20px;
     padding-bottom: 40px;
   }
-  button.btn-show{
+  button.btn-show {
     border: 1px solid rgb(82, 81, 81);
-    width:250px;
+    width: 250px;
     height: 30px;
     font-weight: 500;
     letter-spacing: 2px;
     background-color: #ffffff;
-  margin-left: 40px;
-
-    }
-    
-  .submit{
+    margin-left: 40px;
+  }
+  .submit {
     margin-top: 20px;
-   margin-bottom: 30px;
+    margin-bottom: 30px;
   }
   div.row {
     text-align: center;
     padding-left: 5px;
   }
-.cp{
-  margin-top: 30px;
-}
+  .cp {
+    margin-top: 30px;
+  }
   button {
     position: absolute;
     left: 4%;
   }
-
   div.dis-flex {
     display: none;
   }
-
   .navbar-light .navbar-brand {
-    color: rgba(0, 0, 0, .9);
+    color: rgba(0, 0, 0, 0.9);
     position: absolute;
     right: 50px;
   }
-
   div.d-flex {
     display: flex;
     width: 100px;
@@ -249,85 +308,126 @@ button.increment{
     right: 1%;
     top: 10px;
   }
-
   div.d-flex a i.fa-heart {
     display: none;
   }
-
   div.d-flex a i.fa-cart-plus {
     display: none;
   }
 }
-a.header{
+a.header {
   display: block;
   margin-bottom: 10px;
 }
-a{
-  margin-bottom:0px auto;
+
+a {
+  margin-bottom: 0px auto;
 }
-section.social{
-  margin-left: 34% !important;
+
+section.social {
+  margin-left: 50% !important;
   margin-bottom: 10px;
 }
-hr{
-  width:300px !important;
+
+hr {
+  width: 300px !important;
 }
+
 /* ----------------------------------------------------------------------------------- */
-@media (min-width:768px)and (max-width:1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   div.d-flex a i.fa-heart {
     display: none;
   }
-section.two{
-  margin-bottom: 30px;
-}
-div.data{
-  width:750px;
-  padding-left: 7%;
-  padding-top: 20px;
-  padding-bottom: 40px;
-}
+  section.two {
+    margin-bottom: 30px;
+  }
+  div.data {
+    width: 750px;
+    padding-left: 7%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
   div.dis-flex {
     display: none;
   }
-
   div.d-flex a i.fa-cart-plus {
     display: none;
   }
-  
-    div.btn-show-sec{
+  div.btn-show-sec {
     margin-left: 220px;
-    }
-
+  }
   button {
     left: 30%;
   }
-.imp{
-  width:350px;
-  height: 420px;
-  gap:10px;
-}
+  .imp {
+    width: 350px;
+    height: 420px;
+    gap: 10px;
+  }
   div.d-flex i {
     font-size: 25px;
   }
-
   div.filter-section p {
     padding-left: 3%;
     margin-top: 10px;
   }
-
   .navbar-light .navbar-brand {
     position: absolute;
     right: 30%;
   }
-.img-4{
-  width:720px;
-  height: 600px;
+  .img-4 {
+    width: 720px;
+    height: 600px;
+  }
 }
-}
-section.social{
+section.social {
   margin-left: 44%;
 }
-hr{
-  width:1000px !important;
- 
+
+hr {
+  width: 1000px !important;
 }
+
+div.filter-list {
+  display: none;
+}
+div.card-body {
+  width: 200px;
+  min-height: 160px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  margin-top: 1px;
+  padding-left: 0px;
+}
+div form {
+  align-items: center;
+}
+div form label {
+  padding-left: 20px;
+}
+div form input {
+  width: 20px;
+  height: 20px;
+  margin-left: 0px;
+}
+div form div {
+  margin-bottom: 5px;
+}
+
+p.toggle {
+  margin-bottom: 0;
+  width: 200px;
+  border-bottom: 1px solid rgb(132, 132, 132);
+}
+
+button.ass {
+  margin-right: 0;
+  padding-left: 100px;
+}
+
+a.btn:focus {
+  border: none !important;
+  outline: none !important;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,49 @@
+div{
+    &.filter-list{
+        display: none;
+    }
+    &.card-body{
+        width:200px;
+        min-height: 160px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+         border: none;
+        margin-top: 1px;
+        padding-left: 0px;
+     
+    }
+    form{
+       
+        align-items: center;
+       label{
+        padding-left: 20px;
+        
+       }
+       input{
+        width:20px;
+        height: 20px;
+        margin-left: 0px;
+       }
+       div{
+        margin-bottom: 5px;
+       }
+    }
+}
+p{
+    &.toggle{
+        margin-bottom: 0;
+        width:200px;border-bottom: 1px solid rgb(132, 132, 132);
+    }
+    
+}
+button{
+    &.ass{
+        margin-right: 0;
+        padding-left: 100px;
+    }
+}
+a.btn:focus{
+border: none !important;
+outline: none !important;
+}
