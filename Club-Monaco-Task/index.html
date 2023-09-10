@@ -21,10 +21,79 @@
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">club monaco</a>
-        
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse">
-          <span class="navbar-toggler-icon"></span>
+
+        <button class="btn prime-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+          aria-controls="offcanvasRight">
+          <i class="fa-solid fa-bars" style="font-size: 30px;"></i>
         </button>
+
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+          <div class="offcanvas-header">
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+
+          <div class="offcanvas-body">
+           
+<span>REFINE</span> <button class="one"> CLEAR</button > <button class="two">DONE</button>
+
+   <select name="favorites">
+     <option value="American">SORTED BY </option>
+      <option value="Greater">Greater flamingo</option> 
+      <option value="Lesser">Lesser flamingo</option>
+       <option value="Andean">Andean flamingo</option>
+        <option value="Chilean">Chilean flamingo</option>
+         <option value="James's">James's flamingo</option> 
+        </select>
+
+
+       
+          <p class="toggle">
+              <a class="btn filter" data-bs-toggle="collapse" href="#collapseType" aria-expanded="false" aria-controls="collapseType">
+                  Type
+              </a>
+              <button class="btn ass" data-bs-toggle="collapse" data-bs-target="#collapseType" aria-expanded="false" aria-controls="collapseType">
+                  _
+              </button>
+          </p>
+          <div class="collapse" id="collapseType"> <!-- أعطيت هنا معرف فريد لقسم Type -->
+              <div class="card card-body">
+                  <form>
+                   <div> <input type="checkbox"> <label>Jumsuite (19)</label></div>  
+                   <div> <input type="checkbox"> <label>mixin (10)</label></div> 
+                   <div> <input type="checkbox"> <label>sweeter (9)</label> </div>
+                   <div> <input type="checkbox"> <label>coat (19)</label> </div> 
+                  </form>
+              </div>
+          </div>
+          <p class="toggle">
+              <a class="btn filter" data-bs-toggle="collapse" href="#collapsePrice" aria-expanded="false" aria-controls="collapsePrice">
+                  Price
+              </a>
+              <button class="btn ass" data-bs-toggle="collapse" data-bs-target="#collapsePrice" aria-expanded="false" aria-controls="collapsePrice">
+                  +
+              </button>
+          </p>
+          <!-- قسم Price -->
+       
+          <p class="toggle">
+            <a class="btn filter" data-bs-toggle="collapse" href="#collapseType" aria-expanded="false" aria-controls="collapseType">
+               Color
+            </a>
+            <button class="btn ass" data-bs-toggle="collapse" data-bs-target="#collapseType" aria-expanded="false" aria-controls="collapseType">
+                _
+            </button>
+        </p>
+     
+
+
+      
+
+
+
+        
+          </div>
+        </div>
+
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
@@ -56,7 +125,7 @@
       <a href="#"> <i class="fa-solid fa-cart-plus"></i></a>
     </div>
     <div class="notice">
-      <p>free shopping on orders of $150 or more with code <span>freeship.</span> <a href="#">see details</a></p>
+      <p>free shopping on orders of $150 or more with code <span>freeship.</span> <a href="#" class="details">see details</a></p>
     </div>
   </header>
 
@@ -75,7 +144,7 @@
         </div>
     </div>
     
-    <div class="filter-list" id="filters"> <!-- أعطيت هنا معرف فريد للقائمة -->
+    <div class="filter-list" id="filters"> 
         <p class="toggle">
             <a class="btn filter" data-bs-toggle="collapse" href="#collapseType" aria-expanded="false" aria-controls="collapseType">
                 Type
@@ -102,7 +171,7 @@
                 +
             </button>
         </p>
-        <!-- قسم Price هنا -->
+        <!-- قسم Price -->
         <p class="toggle">
             <a class="btn filter" data-bs-toggle="collapse" href="#collapseColor" aria-expanded="false" aria-controls="collapseColor">
                 Color
@@ -111,7 +180,7 @@
                 +
             </button>
         </p>
-        <!-- قسم Color هنا -->
+        <!-- قسم Color -->
     </div>
   
 

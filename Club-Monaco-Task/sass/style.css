@@ -388,6 +388,40 @@ hr {
   width: 1000px !important;
 }
 
+div.offcanvas-body {
+  margin-left: 10px;
+  margin-top: 30px;
+}
+div.offcanvas-body span {
+  margin-right: 20px;
+  margin-left: 10px;
+  font-size: 20px;
+}
+div.offcanvas-body button {
+  font-weight: bold;
+  width: 100px;
+  height: 50px;
+  margin-right: 20px;
+  margin-bottom: 30px !important;
+}
+div.offcanvas-body button.one {
+  border: 1px solid black;
+  background-color: white;
+}
+div.offcanvas-body button.two {
+  background-color: black;
+  color: white;
+  margin-left: 30px !important;
+}
+div.offcanvas-body select {
+  width: 300px !important;
+  height: 50px;
+  margin-left: 10px;
+  margin-top: 40px !important;
+  padding-left: 20px;
+  margin-bottom: 40px;
+}
+
 div.filter-list {
   display: none;
 }
@@ -430,4 +464,57 @@ button.ass {
 a.btn:focus {
   border: none !important;
   outline: none !important;
+}
+
+.details {
+  text-decoration: underline;
+}
+
+@media (max-width: 769px) {
+  div.offcanvas-body {
+    margin-left: 10px;
+    margin-top: 30px;
+  }
+  div.offcanvas-body span {
+    display: none;
+  }
+  div.offcanvas-body button {
+    font-weight: bold;
+    width: 100px;
+    height: 50px;
+  }
+  div.offcanvas-body button.one {
+    border: 1px solid black;
+    background-color: white;
+    margin-left: 20px;
+  }
+  div.offcanvas-body button.two {
+    background-color: black;
+    color: white;
+    margin-left: 140px;
+  }
+  div.offcanvas-body select {
+    width: 230px !important;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 70px !important;
+    padding-left: 60px;
+    margin-bottom: 40px;
+  }
+  section.social {
+    margin-left: 100px !important;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024) {
+  section.social {
+    margin-left: 50%;
+  }
 }/*# sourceMappingURL=style.css.map */
+
+
+
+@media (min-width:1000PX){
+  .prime-btn{
+    display: none;
+  }
+}
