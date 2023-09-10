@@ -55,15 +55,49 @@ header div.notice p span {
   font-weight: 500;
 }
 
+div.filter-section p{
+padding-left: 4%;
+margin-top: 10px;
+}
+div.filter-section p span{
+  color:#b3b3b3;
+}
+div.flex{
+  display: flex;
+  align-items: center;
+  gap:10px;
+  justify-content: space-between;
+ 
+}
+button.btn{
+  background-color: transparent;
+  border: none;
+}
+div.flex a{
+color: black;
+}
+div.row{
+align-items: center;
+}
+
+
+
 /*# sourceMappingURL=style.css.map */
 
 
 @media(max-width:767px) {
+
+  div.row{
+    text-align: center;
+    padding-left: 5px;
+  }
   button {
     position: absolute;
     left: 4%;
   }
-
+div.dis-flex{
+  display: none;
+}
   .navbar-light .navbar-brand {
     color: rgba(0, 0, 0, .9);
     position: absolute;
@@ -94,7 +128,9 @@ header div.notice p span {
   div.d-flex a i.fa-heart {
     display: none;
   }
-
+  div.dis-flex{
+    display: none;
+  }
   div.d-flex a i.fa-cart-plus {
     display: none;
   }
