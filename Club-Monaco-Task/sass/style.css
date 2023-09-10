@@ -9,14 +9,44 @@ header nav.navbar {
   background-color: rgb(242, 242, 242);
   box-shadow: 0 1px 5px #d8d8d8;
 }
+div.info{
+  padding-top: 10px;
+  text-align: center;
+}
+div.info p{
+ margin-bottom: 3px;
+}
+div.color-dresses div{
+width:25px;
+height: 25px;
 
+}
+div.color-dresses{
+  display: flex;
+justify-content: center;
+align-items: center;
+gap:10px;
+margin-top: 20px;
+margin-bottom: 30px;
+}
+div.color-dresses div.one{
+background-color: cornflowerblue;
+  }
+  div.color-dresses div.two{
+    background-color: rgb(3, 87, 3);
+    }
+    div.color-dresses div.three{
+      background-color: brown;
+      }
 header nav.navbar div.container-fluid a.navbar-brand {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 3px;
   padding-right: 9%;
 }
-
+section.two{
+  margin-top: 10px;
+}
 header nav.navbar div div ul li a {
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -55,44 +85,70 @@ header div.notice p span {
   font-weight: 500;
 }
 
-div.filter-section p{
-padding-left: 6%;
-margin-top: 10px;
+div.filter-section p {
+  padding-left: 6%;
+  margin-top: 10px;
 }
-div.filter-section p span{
-  color:#b3b3b3;
+
+div.filter-section p span {
+  color: #b3b3b3;
 }
-div.flex{
+
+div.flex {
   display: flex;
   align-items: center;
-  gap:10px;
+  gap: 10px;
   justify-content: space-between;
 }
-button.btn{
+button.increment{
+  width:25px;
+  height: 25px;
+  border: none;
+}
+button.btn {
   background-color: transparent;
   border: none;
 }
-div.flex a{
-color: black;
+
+div.flex a {
+  color: black;
 }
-div.container{
-padding-left: 0px;
+
+div.container {
+  padding-left: 0px;
 }
+
 /*# sourceMappingURL=style.css.map */
-
+button.increment{
+  width:25px;
+  height: 25px;
+  border: none;
+}
 @media(max-width:767px) {
+  section.two{
+    margin-top: 20px;
+  }
+  button.increment{
+    width:25px;
+    height: 25px;
+    border: none;
+   margin-left: 80px;
+  }
 
-  div.row{
+  div.row {
     text-align: center;
     padding-left: 5px;
   }
+
   button {
     position: absolute;
     left: 4%;
   }
-div.dis-flex{
-  display: none;
-}
+
+  div.dis-flex {
+    display: none;
+  }
+
   .navbar-light .navbar-brand {
     color: rgba(0, 0, 0, .9);
     position: absolute;
@@ -123,9 +179,13 @@ div.dis-flex{
   div.d-flex a i.fa-heart {
     display: none;
   }
-  div.dis-flex{
+section.two{
+  margin-bottom: 30px;
+}
+  div.dis-flex {
     display: none;
   }
+
   div.d-flex a i.fa-cart-plus {
     display: none;
   }
@@ -137,12 +197,18 @@ div.dis-flex{
   div.d-flex i {
     font-size: 25px;
   }
-  div.filter-section p{
+
+  div.filter-section p {
     padding-left: 3%;
     margin-top: 10px;
-    }
+  }
+
   .navbar-light .navbar-brand {
     position: absolute;
     right: 30%;
   }
+.img-4{
+  width:720px;
+  height: 600px;
+}
 }
