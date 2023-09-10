@@ -21,6 +21,12 @@ width:20px;
 height: 20px;
 
 }
+div.data{
+  width:1240px;
+  padding-left: 8%;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
 button.btn-show{
 border: 1px solid black;
 width:350px;
@@ -137,7 +143,7 @@ button.increment{
   height: 25px;
   border: none;
 }
-
+/* ---------------------------------------------------------------------------------- */
 @media(max-width:767px) {
   .imp{
     width:350px;
@@ -152,7 +158,12 @@ button.increment{
     border: none;
    margin-left: 80px;
   }
-
+  div.data{
+    width:350px;
+    padding-left: 8%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
   button.btn-show{
     border: 1px solid rgb(82, 81, 81);
     width:250px;
@@ -203,13 +214,19 @@ button.increment{
   }
 }
 
-
+/* ----------------------------------------------------------------------------------- */
 @media (min-width:768px)and (max-width:1024px) {
   div.d-flex a i.fa-heart {
     display: none;
   }
 section.two{
   margin-bottom: 30px;
+}
+div.data{
+  width:750px;
+  padding-left: 7%;
+  padding-top: 20px;
+  padding-bottom: 40px;
 }
   div.dis-flex {
     display: none;
