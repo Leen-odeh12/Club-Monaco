@@ -125,6 +125,10 @@ button.increment{
   border: none;
 }
 @media(max-width:767px) {
+  .imp{
+    width:350px;
+    height: 420px;
+  }
   section.two{
     margin-top: 20px;
   }
@@ -193,7 +197,11 @@ section.two{
   button {
     left: 30%;
   }
-
+.imp{
+  width:350px;
+  height: 420px;
+  gap:10px;
+}
   div.d-flex i {
     font-size: 25px;
   }
