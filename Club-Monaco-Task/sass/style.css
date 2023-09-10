@@ -176,6 +176,14 @@ button.increment{
     border: none;
    margin-left: 80px;
   }
+  button.submit{
+    margin-bottom: 0;
+    margin-left: 30px;
+  }
+  input{
+    margin-left: 60px;
+  }
+
   .social a{
     text-decoration: none;
     color:black;
@@ -250,7 +258,20 @@ button.increment{
     display: none;
   }
 }
-
+a.header{
+  display: block;
+  margin-bottom: 10px;
+}
+a{
+  margin-bottom:0px auto;
+}
+section.social{
+  margin-left: 34% !important;
+  margin-bottom: 10px;
+}
+hr{
+  width:300px !important;
+}
 /* ----------------------------------------------------------------------------------- */
 @media (min-width:768px)and (max-width:1024px) {
   div.d-flex a i.fa-heart {
@@ -302,4 +323,11 @@ div.data{
   width:720px;
   height: 600px;
 }
+}
+section.social{
+  margin-left: 44%;
+}
+hr{
+  width:1000px !important;
+ 
 }
