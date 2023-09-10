@@ -1,0 +1,62 @@
+header{
+    nav{
+        &.navbar{
+            padding: 20px 30px;
+            background-color: rgb(242, 242, 242);
+            box-shadow: 0 1px 5px #d8d8d8;
+            div{
+                &.container-fluid{
+                 a{
+                    &.navbar-brand{
+                        font-weight: bold;
+                        text-transform: uppercase;
+                        letter-spacing: 3px;
+                        padding-right:9%;
+                    }
+                 }
+                }
+                div{
+                    ul{
+                        li{
+                            a{
+                                letter-spacing: 2px;
+                                text-transform: uppercase;
+                                color: black;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        div{
+            &.d-flex{
+                display: flex;
+                width:130px;
+                justify-content: space-between;
+                align-items: center;
+               a{
+                i{
+                    color: #525252;
+                }
+               }
+            }
+        }
+    }
+    div{
+        &.notice{
+            text-align: center;
+            box-shadow: 0 0 2px #b3b3b3;
+            padding: 5px 0;
+            p{
+                margin-bottom: 0%;
+                a{
+                    color: black;
+                }
+                span{
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}
+

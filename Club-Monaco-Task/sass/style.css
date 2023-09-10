@@ -1,0 +1,114 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+header nav.navbar {
+  padding: 20px 30px;
+  background-color: rgb(242, 242, 242);
+  box-shadow: 0 1px 5px #d8d8d8;
+}
+
+header nav.navbar div.container-fluid a.navbar-brand {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding-right: 9%;
+}
+
+header nav.navbar div div ul li a {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: black;
+}
+
+div.d-flex {
+  display: flex;
+  width: 130px;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  right: 5%;
+  top: 30px;
+}
+
+div.d-flex a i {
+  color: #525252;
+}
+
+header div.notice {
+  text-align: center;
+  box-shadow: 0 0 2px #b3b3b3;
+  padding: 5px 0;
+}
+
+header div.notice p {
+  margin-bottom: 0%;
+}
+
+header div.notice p a {
+  color: black;
+}
+
+header div.notice p span {
+  font-weight: 500;
+}
+
+/*# sourceMappingURL=style.css.map */
+
+
+@media(max-width:767px) {
+  button {
+    position: absolute;
+    left: 4%;
+  }
+
+  .navbar-light .navbar-brand {
+    color: rgba(0, 0, 0, .9);
+    position: absolute;
+    right: 50px;
+  }
+
+  div.d-flex {
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    right: 1%;
+    top: 10px;
+  }
+
+  div.d-flex a i.fa-heart {
+    display: none;
+  }
+
+  div.d-flex a i.fa-cart-plus {
+    display: none;
+  }
+}
+
+
+@media (min-width:768px)and (max-width:1024px) {
+  div.d-flex a i.fa-heart {
+    display: none;
+  }
+
+  div.d-flex a i.fa-cart-plus {
+    display: none;
+  }
+
+  button {
+    left: 30%;
+  }
+
+  div.d-flex i {
+    font-size: 25px;
+  }
+
+  .navbar-light .navbar-brand {
+    position: absolute;
+    right: 30%;
+  }
+}
